@@ -1,4 +1,4 @@
-SlashGeeSlashOS.github.io
+JiyuuProject.github.io
 =========================
 
-Jiyuu Linux website
+Jiyuu website
