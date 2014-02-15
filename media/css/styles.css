@@ -1,0 +1,79 @@
+@font-face {
+    font-family: DejaVu;
+    url('http://static.jiyuulinux.org/website/fonts/DejaVuSans.ttf');
+}
+
+body {
+    font-family: DejaVu, sans-serif;
+}
+
+a {
+    color:black;
+}
+
+#wrapper {
+    position:absolute;
+    top:0;
+    left:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    display:inline;
+}
+
+#center {
+    left:0;
+    width:100%;
+    height:100%;
+    position:relative;
+}
+
+#navbar {
+    position:absolute;
+    top:0;
+    width:200px;
+    border-right: solid 1px #000;
+    height:150%;
+    overflow-y:auto;
+}
+
+#navbar > a > li > img {
+    width:100%;
+}
+
+#navbar > hr {
+    width:80%;
+}
+
+#navbar > a {
+    text-decoration: none;
+}
+
+#navbar > a > li {
+    padding:12px;
+    transition:0.2s;
+    list-style-type: none;
+}
+
+#navbar > a > li:hover {
+    background: rgba(34,168,224,0.8);
+}
+
+#navbar > a > .selected {
+    background: rgba(34,168,224,0.4);
+}
+
+#content {
+    position:absolute;
+    top:0;
+    right:0;
+    width:calc(100% - 212px);
+    height:100%;
+    overflow-y:auto;
+    padding:5px;
+}
+
+#content > p {
+    padding-left:20px;
+}

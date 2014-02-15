@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    transition: 0.5s;
+    box-shadow: -4px 0px 15px rgb(24, 24, 24);
+}
+
+.content {
+    position: absolute;
+    left:50%;
+    top:50%;
+    -webkit-transform: translate(-50%, -55%);
+    transform: translate(-50%, -55%);
+    width: 940px;
+    background: rgba(255,255,255,0.9);
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.content a {
+    color: grey;
+    z-index:3;
+}
+
+.arrow {
+    color: grey;
+    font-size: 50pt;
+}
+
+.arrow:hover {
+    color:black;
+}
+
+.arrowright {
+    position: absolute;
+    bottom:10px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);   
+    right: 15px;
+}
+
+.arrowleft {
+    position: absolute;
+    bottom:10px;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(-90deg);   
+    left: 15px;
+}
+
+.title a {
+    color: black;
+}
+
+ul li {
+    list-style: none;
+}
+
+article .text .inner img {
+    width: 100%;
+}
+
+.metadata {
+    border-top: solid 1px #ADADAD;
+}
+
+#footer {
+    position: absolute;
+    top: 100%;
+    left:0;
+    z-index:2;
+    background: rgb(68, 68, 68);
+    color: rgb(136,136,136);
+    width: 100%;
+    text-align: center;
+    padding: 1em 0 1em 0;
+    box-shadow: inset 0px 4px 15px rgb(24, 24, 24);
+}
+
+#footer a {
+    color: white;
+}
+
+#footerinner {
+    width: 940px;
+}
+
+#links {
+    float: left;
+}
+
+.twitdiv {
+    float: right;
+}
+
+#twita div {
+    display:inline;
+}
+
+#twita span {
+    opacity: 0;
+    transition: 0.2s;
+    display: inline;
+}
+
+#twita:hover span {
+    opacity: 1;
+}
+
+hr {
+    width: 100%;
+}
